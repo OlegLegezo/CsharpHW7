@@ -49,7 +49,6 @@ void Founding(int[,] array, int m, int n)//метод поиска элемен�
     int answer = 0;
     if (m <= array.GetLength(0) & n <= array.GetLength(1))
     {
-        answerBool = true;
         answer = array[m, n];
         Console.WriteLine($"по введенным параметрам элемент в массиве: {answer}");
     }
